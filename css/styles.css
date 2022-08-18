@@ -13,7 +13,7 @@
     }
     
     .header {
-        background-image: linear-gradient(180deg, #E7EBDA, #f09527);
+        /* background-image: linear-gradient(180deg, #E7EBDA, #f09527); */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -62,7 +62,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(#637e0b 50%, #d6e382);
+        /* background-image: linear-gradient(#637e0b 50%, #d6e382); */
     }
     
     .titulo {
@@ -81,7 +81,7 @@
     }
     
     .section-ppal {
-        background-image: linear-gradient(#d6e382 50%, #a1fba1);
+        /* background-image: linear-gradient(#d6e382 50%, #a1fba1); */
         text-align: center;
         padding: 20px 20px;
         display: block;
@@ -245,11 +245,10 @@
         opacity: 0.8;
         cursor: pointer;
     }
-    
-    .productos {
-        background-image: linear-gradient(90deg, #02024c, #0ea8a8);
-        /*Agregar fondo con gradientes*/
-    }
+    /* .productos {*/
+    /* background-image: linear-gradient(90deg, #02024c, #0ea8a8); */
+    /*Agregar fondo con gradientes*/
+    /* } */
     
     .listadoProductos {
         display: flex;
@@ -354,6 +353,49 @@
         .testimonios img {
             margin: 0;
             padding: 0;
+        }
+    }
+    /* Todas las animaciones y gradientes estaran aqui debajo */
+    
+    .header {
+        background-image: linear-gradient(180deg, #E7EBDA, #f09527);
+    }
+    
+    .titulos {
+        background-image: linear-gradient(#637e0b 50%, #d6e382);
+    }
+    
+    .section-ppal {
+        background-image: linear-gradient(#d6e382 50%, #a1fba1);
+    }
+    
+    .productos {
+        background-image: linear-gradient(-45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+        -webkit-animation: AnimateBG 20s ease infinite;
+        animation: AnimateBG 20s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimateBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    @keyframes AnimateBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
         }
     }
     
