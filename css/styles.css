@@ -12,32 +12,9 @@
         padding: 10px 20px;
     }
     
-    .header {
-        /* background-image: linear-gradient(180deg, #E7EBDA, #f09527); */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-    
-    .header nav {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        margin: 0 10px;
-    }
-    
-    .header ul {
-        display: inline-block;
-        list-style-type: none;
-        margin: 0.5em auto;
-        padding-bottom: 25px;
-    }
-    
     .header ul li {
         display: inline-block;
+        margin: 2px;
     }
     
     .header ul li a {
@@ -340,21 +317,6 @@
         padding: 5px;
         margin: 10px 10px;
     }
-    
-    @media (max-width: 768px) {
-        .logo {
-            width: 180px;
-        }
-        .testimonios {
-            display: grid;
-            grid-template-columns: 1fr;
-            overflow: auto;
-        }
-        .testimonios img {
-            margin: 0;
-            padding: 0;
-        }
-    }
     /* Todas las animaciones y gradientes estaran aqui debajo */
     
     .header {
@@ -396,6 +358,21 @@
         }
         100% {
             background-position: 0% 50%;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .logo {
+            width: 180px;
+        }
+        .testimonios {
+            display: grid;
+            grid-template-columns: 1fr;
+            overflow: auto;
+        }
+        .testimonios img {
+            margin: 0;
+            padding: 0;
         }
     }
     
