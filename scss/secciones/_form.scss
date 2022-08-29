@@ -1,0 +1,47 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://instamat.com/wp-content/uploads/2020/12/Vitrinas-y-mostradores-para-panaderia-casadieela-y-cafe.jpg");
+    form {
+        padding: 30px;
+        background-color: #d0f7b3;
+        margin: 0 auto;
+        input,
+        label,
+        textarea {
+            margin-bottom: 15px;
+            font-family: "Roboto", sans-serif;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            color: #525c66;
+            font-size: 1em;
+            resize: none;
+            text-align: center;
+            &:focus {
+                outline: 4px solid salmon;
+            }
+        }
+        input[type="radio"]:focus:not(:focus-visible) {
+            outline: none;
+        }
+        .boton {
+            display: block;
+            background-color: #06f4cc;
+            padding: 10px 45px 10px 45px;
+            border: 0;
+            font-size: 1em;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            &:hover {
+                background-color: #0071ae;
+                color: white;
+                font-weight: bold;
+                box-shadow: .5rem .5rem 1rem #fff, -.5rem -.5rem 1rem #ccc;
+                cursor: pointer;
+            }
+        }
+    }
+}

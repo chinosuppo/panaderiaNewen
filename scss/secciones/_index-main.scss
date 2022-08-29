@@ -1,0 +1,32 @@
+.index-main {
+    .titulos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(#637e0b 50%, #d6e382);
+    }
+    .section-ppal {
+        background-image: linear-gradient(#d6e382 50%, #a1fba1);
+        text-align: center;
+        padding: 20px 20px;
+        display: block;
+        article {
+            font-size: 20px;
+            font-family: 'Montserrat', Courier, monospace;
+            color: #201f21;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 25vh;
+            margin: 10px 0;
+            box-shadow: 2px 2px 2px 2px rgba(32, 32, 32, 0.6);
+        }
+    }
+    .imagen_ppal {
+        width: 100%;
+        padding: 10px 10px;
+    }
+}

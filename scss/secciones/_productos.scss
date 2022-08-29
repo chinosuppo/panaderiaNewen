@@ -1,0 +1,61 @@
+.listadoProductos {
+    background-image: linear-gradient(-45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+    animation: AnimateBG 20s ease infinite;
+    .titulo {
+        margin: 0 20px 20px 20px;
+    }
+    ul {
+        list-style: none;
+        margin: 10px;
+    }
+    .card-header {
+        font-size: 16px;
+        font-weight: bold;
+        &:hover {
+            font-size: 20px;
+            background-color: #ff8800cf;
+            cursor: pointer;
+        }
+    }
+    .list-group-item {
+        font-size: 0.85rem;
+        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    }
+    button {
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 15px;
+        background-color: #cbdfbd;
+        color: #001d3d;
+        border: 3px solid white;
+        &:hover {
+            background-color: #a7e47cba;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+    @-webkit-keyframes AnimateBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    @keyframes AnimateBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
