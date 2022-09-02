@@ -83,10 +83,6 @@
     margin: 10px 0;
     box-shadow: 2px 2px 2px 2px rgba(32, 32, 32, 0.6); }
 
-.index-main .imagen_ppal {
-  width: 100%;
-  padding: 10px 10px; }
-
 .formulario {
   display: flex;
   flex-direction: column;
@@ -256,43 +252,41 @@
 .footer {
   width: 100%;
   display: flex;
-  justify-content: space-around; }
-  .footer h3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.75rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 5px;
-    padding: 5px;
-    text-align: center; }
+  flex-direction: column;
+  background-color: black; }
   .footer div > p,
-  .footer div > ul,
-  .footer div > a {
+  .footer div > ul {
     display: block;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     font-style: italic;
     font-family: Verdana, Tahoma, sans-serif;
     list-style: none;
     text-decoration: none;
-    padding: 5px; }
-  .footer div > a:link {
-    color: #ffff39; }
-  .footer div > a:visited {
-    color: #a9026c; }
-  .footer .telefono {
-    width: 33%;
-    background-color: #ffbe0b; }
+    padding: 5px;
+    color: papayawhip; }
   .footer .redes {
-    width: 34%;
-    background-color: #0fbcf5; }
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center; }
+    .footer .redes a {
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Verdana, Tahoma, sans-serif;
+      color: papayawhip; }
+      .footer .redes a:link {
+        color: #dfdf94; }
+      .footer .redes a:visited {
+        color: #a9026c; }
   .footer .fa-brands {
-    font-size: 2rem; }
-  .footer .horarios {
-    background-color: #3f9c50dc;
-    width: 33%;
-    color: white; }
+    font-size: 1.5rem; }
+  .footer .fa-solid {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: papayawhip; }
   @media (max-width: 320px) {
     .footer h3 {
       font-size: 16px; }
