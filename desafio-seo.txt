@@ -1,0 +1,23 @@
+Keywords y Description
+
+- Index -
+<meta name="keywords" content="Newen, panaderia, pan, Cipolletti, Rio Negro, facturas">
+<meta name="description" content="Somos Newen Panadería, una panaderia de mas de 35 años de experiencia ubicada en la localidad de Cipolletti, provincia de Rio Negro">
+
+- Contacto -
+<meta name="keywords" content="contacto, formulario, ayuda, Newen, panaderia, telefono">
+<meta name="description" content="Ponete en contacto con nosostros completando el formulario, llamandonos a los numeros de telefono ubicados abajo o en las redes sociales">
+
+- Galería -
+<meta name="keywords" content="Newen, panaderia, fotos, galeria, imagenes">
+<meta name="description" content="Mira las fotos de nuestras preparaciones!!">
+
+- Productos -
+<meta name="keywords" content="Newen, panaderia, pan, facturas, bizcochitos, tartas, alfajores, masa madre, masas secas, masas finas, cookies, budin">
+<meta name="description" content="Deleitate con nuestros productos, y hay mas variedades en nuestro local!!">
+
+- Testimonios -
+<meta name="keywords" content="testimonios, clientes, Newen, Panaderia, Cipolletti">
+<meta name="description" content="Si te falta confirmar que somos buenos, lee los testimonios que dejan nuestros clientes">
+
+Ademas se modificaron algunos <h2></h2> por <h1></h1> para obtener un mejor posicionamiento SEO

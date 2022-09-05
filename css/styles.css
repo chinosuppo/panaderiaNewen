@@ -4,6 +4,13 @@
   padding: 0;
   box-sizing: border-box; }
 
+.titulo {
+  font-size: 50px;
+  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: #F0C808; }
+
 .header {
   background-image: linear-gradient(180deg, #E7EBDA, #f09527); }
   .header .navbar .logo {
@@ -39,18 +46,13 @@
     .header .navbar .logo {
       width: 150px; } }
 
-.titulo {
-  font-size: 50px;
-  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin: 20px;
-  color: #F0C808; }
-  @media (max-width: 480px) {
-    .titulo .titulo {
-      font-size: 42px; } }
-  @media (max-width: 320px) {
-    .titulo .titulo {
-      font-size: 38px; } }
+@media (max-width: 480px) {
+  .titulo .titulo {
+    font-size: 42px; } }
+
+@media (max-width: 320px) {
+  .titulo .titulo {
+    font-size: 38px; } }
 
 .subTitulo {
   font-size: 30px;
@@ -206,7 +208,7 @@
 
 .testimonioClientes {
   background-color: #f07167; }
-  .testimonioClientes h2 {
+  .testimonioClientes h1 {
     display: flex;
     flex-direction: column;
     align-items: center;

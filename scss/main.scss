@@ -6,6 +6,8 @@
             box-sizing: border-box;
         }
         
+        //Siempre se importa primero las variables y luego las secciones
+        @import './variables/extend';
         @import './secciones/_header';
         @import './secciones/_titulos';
         @import './secciones/_index-main';
