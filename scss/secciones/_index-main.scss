@@ -1,14 +1,12 @@
 .index-main {
     .titulos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-image: linear-gradient(#637e0b 50%, #d6e382);
+        background-image: $fondoTitulosIndex;
+        .titulo {
+            @extend %estiloTitulos;
+        }
     }
     .section-ppal {
-        background-image: linear-gradient(#d6e382 50%, #a1fba1);
+        background-image: $fondoSeccionPpal;
         text-align: center;
         padding: 20px 20px;
         display: block;

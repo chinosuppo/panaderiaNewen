@@ -1,5 +1,5 @@
 .galeria {
-    background-color: wheat;
+    background-color: $fondoGaleria;
     .fotos {
         display: grid;
         /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */

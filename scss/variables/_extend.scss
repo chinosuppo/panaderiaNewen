@@ -1,8 +1,13 @@
 %estiloTitulos {
     font-size: 50px;
     font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 20px;
+    margin: auto;
+    padding: 10px;
     color: #F0C808;
 }
 
@@ -11,5 +16,5 @@
     font-family: 'Cormorant SC', Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: 600;
-    margin: 10px;
+    margin: auto;
 }

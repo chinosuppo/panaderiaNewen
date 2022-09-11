@@ -4,11 +4,16 @@
   padding: 0;
   box-sizing: border-box; }
 
-.titulo {
+.titulo, .index-main .titulos .titulo, .listadoProductos .titulo, .testimonioClientes h1 {
   font-size: 50px;
   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 20px;
+  margin: auto;
+  padding: 10px;
   color: #F0C808; }
 
 .header {
@@ -17,7 +22,7 @@
     width: 240px;
     margin: 0;
     padding: 10px 20px; }
-    .header .navbar .logo__logo--hover {
+    .header .navbar .logo:hover {
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
       overflow: hidden; }
@@ -59,14 +64,9 @@
   font-family: 'Cormorant SC', Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: 600;
-  margin: 10px; }
+  margin: auto; }
 
 .index-main .titulos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   background-image: linear-gradient(#637e0b 50%, #d6e382); }
 
 .index-main .section-ppal {
@@ -175,11 +175,7 @@
       gap: 20px; } }
 
 .listadoProductos {
-  background-image: linear-gradient(-45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
-  -webkit-animation: AnimateBG 20s ease infinite;
-  animation: AnimateBG 20s ease infinite; }
-  .listadoProductos .titulo {
-    margin: 0 20px 20px 20px; }
+  background-color: #eb4783c0; }
   .listadoProductos ul {
     list-style: none;
     margin: 10px; }
@@ -206,30 +202,8 @@
       color: white;
       cursor: pointer; }
 
-@-webkit-keyframes AnimateBG {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
-@keyframes AnimateBG {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-
 .testimonioClientes {
   background-color: #f07167; }
-  .testimonioClientes h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    margin: 0 0 20px 0; }
   .testimonioClientes .testimonios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

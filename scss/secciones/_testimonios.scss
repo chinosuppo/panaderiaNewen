@@ -1,11 +1,7 @@
 .testimonioClientes {
-    background-color: #f07167;
+    background-color: $fondoTestimonios;
     h1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-        margin: 0 0 20px 0;
+        @extend %estiloTitulos;
     }
     .testimonios {
         display: grid;

@@ -1,5 +1,6 @@
 .titulo {
     @extend %estiloTitulos;
+    //Revisar porque no funcionan los @media
     @media(max-width: 480px) {
         .titulo {
             font-size: 42px;

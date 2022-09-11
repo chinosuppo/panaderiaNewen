@@ -7,6 +7,7 @@
         }
         
         //Siempre se importa primero las variables y luego las secciones
+        @import './variables/coloresFondos';
         @import './variables/extend';
         @import './secciones/_header';
         @import './secciones/_titulos';
