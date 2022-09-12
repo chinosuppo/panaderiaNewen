@@ -7,13 +7,13 @@
         }
         
         //Siempre se importa primero las variables y luego las secciones
-        @import './variables/_coloresFondos';
-        @import './variables/_extend';
-        @import './secciones/_header';
-        @import './secciones/_titulos';
-        @import './secciones/_index-main';
-        @import './secciones/_form';
-        @import './secciones/_galeria';
-        @import './secciones/_productos';
-        @import './secciones/_testimonios';
-        @import './secciones/_footer';
+        @import './variables/coloresFondos';
+        @import './variables/extend';
+        @import './secciones/header';
+        @import './secciones/titulos';
+        @import './secciones/index-main';
+        @import './secciones/form';
+        @import './secciones/galeria';
+        @import './secciones/productos';
+        @import './secciones/testimonios';
+        @import './secciones/footer';

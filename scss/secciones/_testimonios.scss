@@ -4,15 +4,18 @@
         @extend %estiloTitulos;
         @include modificacionTitulos(480px);
     }
+    //estilos de la seccion testimonios, aplicando grid para partir imagen con articulo
     .testimonios {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        //estilos de la imagen
         img {
             width: 100%;
             margin: 10px 10px;
             padding: 0 10px 0 10px;
         }
+        //estilos de los comentarios de los clientes
         section {
             margin: 0 20px 0 20px;
             h4 {
@@ -28,6 +31,7 @@
                 margin: 10px 10px;
             }
         }
+        //media querie para acomodar de otra forma la seccion testimonios
         @media (max-width: 768px) {
             display: grid;
             grid-template-columns: 1fr;
@@ -37,6 +41,7 @@
                 padding: 0;
             }
         }
+        //en esta media querie se aplica display none a la img para que solo queden los comentarios de la gente visibles
         @media (max-width: 480px) {
             display: grid;
             grid-template-columns: 1fr;

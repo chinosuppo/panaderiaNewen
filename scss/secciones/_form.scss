@@ -2,6 +2,7 @@
     @include posicionFlex-column;
     align-items: center;
     background-image: url("https://instamat.com/wp-content/uploads/2020/12/Vitrinas-y-mostradores-para-panaderia-casadieela-y-cafe.jpg");
+    /*Estilos del formulario*/
     form {
         padding: 30px;
         background-color: $fondoForm;
@@ -26,6 +27,7 @@
         input[type="radio"]:focus:not(:focus-visible) {
             outline: none;
         }
+        /*Estilos del boton para enviar el form*/
         .boton {
             display: block;
             background-color: #06f4cc;

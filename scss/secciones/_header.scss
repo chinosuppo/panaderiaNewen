@@ -1,6 +1,7 @@
 .header {
     background-image: $fondoHeader;
     .navbar {
+        //estilos del logo, con hover incluido
         .logo {
             width: 240px;
             margin: 0;
@@ -11,6 +12,7 @@
                 overflow: hidden;
             }
         }
+        //estilos para los enlaces de la barra de navegacion
         ul,
         li {
             display: inline-block;
@@ -30,6 +32,7 @@
                 }
             }
         }
+        //media querie para achicar el logo a medida que el tamaño de la pantalla es menor
         @media (max-width: 768px) {
             .logo {
                 width: 180px;

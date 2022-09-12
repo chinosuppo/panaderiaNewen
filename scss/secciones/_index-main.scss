@@ -5,17 +5,20 @@
             @extend %estiloTitulos;
         }
     }
+    //estilos de la seccion principal
     .section-ppal {
         background-image: $fondoSeccionPpal;
         text-align: center;
         padding: 20px 20px;
         display: block;
+        //se realizo un nuevo div para agrupar el articulo y el mapa para que queden posicionados de mejor manera
         .articulo-mapa {
             display: flex;
             flex-direction: row-reverse;
             height: 60vh;
             width: 100%;
         }
+        //estilos articulo
         article {
             font-size: 20px;
             font-family: 'Montserrat', Courier, monospace;
@@ -26,11 +29,13 @@
             // place-items: center;
             align-content: space-evenly;
         }
+        //estilos mapa
         iframe {
             width: 40%;
             margin: 20px 20px;
             box-shadow: 2px 2px 2px 2px rgba(32, 32, 32, 0.6);
         }
+        //media querie para acomodar la seccion articulo-mapa a otro ancho de pantalla, con otra disposicion
         @media (max-width:600px) {
             .articulo-mapa {
                 @include posicionFlex-column;

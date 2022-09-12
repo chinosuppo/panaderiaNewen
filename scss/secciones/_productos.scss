@@ -2,11 +2,13 @@
     background-color: $fondoProductos;
     .titulo {
         @extend %estiloTitulos;
+        @include modificacionTitulos(480px);
     }
     ul {
         list-style: none;
         margin: 10px;
     }
+    //estilos de cartas Bootstrap y aplicacion de hover
     .card-header {
         font-size: 16px;
         font-weight: bold;
@@ -16,10 +18,12 @@
             cursor: pointer;
         }
     }
+    //estilos de productos
     .list-group-item {
         font-size: 0.85rem;
         font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     }
+    //estilos boton de productos
     button {
         margin-bottom: 30px;
         padding: 20px;

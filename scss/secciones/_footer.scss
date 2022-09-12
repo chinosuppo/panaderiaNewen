@@ -1,9 +1,8 @@
 .footer {
     width: 100%;
     @include posicionFlex-column;
-    /* display: flex;
-    flex-direction: column;*/
     background-color: $fondoFooter;
+    /*estilos para telefono, horario y direccion del footer*/
     div>p,
     div>ul {
         display: block;
@@ -16,6 +15,7 @@
         padding: 5px;
         color: papayawhip;
     }
+    /*estilos redes footer*/
     .redes {
         display: flex;
         flex-direction: row-reverse;
@@ -34,9 +34,11 @@
             }
         }
     }
+    /*tamaño de los iconos*/
     .fa-brands {
         font-size: 1.5rem;
     }
+    /*estilos iconos*/
     .fa-solid {
         display: block;
         text-align: center;

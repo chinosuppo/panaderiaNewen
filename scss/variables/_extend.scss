@@ -1,3 +1,4 @@
+//extend para aplicar estilos generales a los h1
 %estiloTitulos {
     font-size: 50px;
     font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
@@ -11,6 +12,7 @@
     color: #F0C808;
 }
 
+//mixin para aplicar estilos generales a los subtitulos (h2 y h3)
 @mixin estiloSubtitulos ($tamanioSize, $fontWeight) {
     font-size: $tamanioSize;
     font-family: 'Cormorant SC', Arial, Helvetica, sans-serif;
@@ -19,6 +21,7 @@
     margin: auto;
 }
 
+//mixin de media querie para achicar el tamaño de los h1 a un diverso ancho de pantalla
 @mixin modificacionTitulos($width) {
     @media (min-width: $width) {
         .titulo {
@@ -27,6 +30,7 @@
     }
 }
 
+//mixin para acomodar ciertas secciones con cierto posicionamiento
 @mixin posicionFlex-column {
     display: flex;
     flex-direction: column;

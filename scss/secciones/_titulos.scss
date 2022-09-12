@@ -1,9 +1,12 @@
+//estilos de los titulos y subtitulos
 .titulo {
+    //aplicacion de extend
     @extend %estiloTitulos;
     //Revisar porque no funcionan los @media
     @include modificacionTitulos(480px);
 }
 
 .subTitulo {
+    //aplicacion de mixin
     @include estiloSubtitulos (30px, 600);
 }
