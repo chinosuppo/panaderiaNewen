@@ -1,6 +1,5 @@
 .formulario {
-    display: flex;
-    flex-direction: column;
+    @include posicionFlex-column;
     align-items: center;
     background-image: url("https://instamat.com/wp-content/uploads/2020/12/Vitrinas-y-mostradores-para-panaderia-casadieela-y-cafe.jpg");
     form {

@@ -1,16 +1,7 @@
 .titulo {
     @extend %estiloTitulos;
     //Revisar porque no funcionan los @media
-    @media(max-width: 480px) {
-        .titulo {
-            font-size: 42px;
-        }
-    }
-    @media (max-width: 320px) {
-        .titulo {
-            font-size: 38px;
-        }
-    }
+    @include modificacionTitulos(480px);
 }
 
 .subTitulo {

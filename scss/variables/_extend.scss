@@ -18,3 +18,16 @@
     font-weight: 600;
     margin: auto;
 }
+
+@mixin modificacionTitulos($width) {
+    @media (min-width: $width) {
+        .titulo {
+            font-size: 42px;
+        }
+    }
+}
+
+@mixin posicionFlex-column {
+    display: flex;
+    flex-direction: column;
+}

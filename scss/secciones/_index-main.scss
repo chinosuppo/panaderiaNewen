@@ -33,8 +33,7 @@
         }
         @media (max-width:600px) {
             .articulo-mapa {
-                display: flex;
-                flex-direction: column;
+                @include posicionFlex-column;
                 height: auto;
                 align-items: center;
                 article,

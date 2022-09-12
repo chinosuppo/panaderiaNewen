@@ -51,13 +51,9 @@
     .header .navbar .logo {
       width: 150px; } }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   .titulo .titulo {
     font-size: 42px; } }
-
-@media (max-width: 320px) {
-  .titulo .titulo {
-    font-size: 38px; } }
 
 .subTitulo {
   font-size: 30px;
@@ -204,6 +200,9 @@
 
 .testimonioClientes {
   background-color: #f07167; }
+  @media (min-width: 480px) {
+    .testimonioClientes h1 .titulo {
+      font-size: 42px; } }
   .testimonioClientes .testimonios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -245,6 +244,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  /* display: flex;
+    flex-direction: column;*/
   background-color: black; }
   .footer div > p,
   .footer div > ul {

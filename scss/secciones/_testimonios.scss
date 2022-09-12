@@ -2,6 +2,7 @@
     background-color: $fondoTestimonios;
     h1 {
         @extend %estiloTitulos;
+        @include modificacionTitulos(480px);
     }
     .testimonios {
         display: grid;

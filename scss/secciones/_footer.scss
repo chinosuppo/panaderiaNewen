@@ -1,7 +1,8 @@
 .footer {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    @include posicionFlex-column;
+    /* display: flex;
+    flex-direction: column;*/
     background-color: $fondoFooter;
     div>p,
     div>ul {
