@@ -2,8 +2,6 @@
 .titulo {
     //aplicacion de extend
     @extend %estiloTitulos;
-    //Revisar porque no funcionan los @media
-    @include modificacionTitulos(phone-only);
 }
 
 .subTitulo {
