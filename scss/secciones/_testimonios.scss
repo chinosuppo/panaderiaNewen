@@ -2,7 +2,7 @@
     background-color: $fondoTestimonios;
     h1 {
         @extend %estiloTitulos;
-        @include modificacionTitulos(480px);
+        @include modificacionTitulos(phone-only);
     }
     //estilos de la seccion testimonios, aplicando grid para partir imagen con articulo
     .testimonios {

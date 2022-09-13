@@ -3,6 +3,7 @@
         background-image: $fondoTitulosIndex;
         .titulo {
             @extend %estiloTitulos;
+            @include modificacionTitulos(phone-only);
         }
     }
     //estilos de la seccion principal

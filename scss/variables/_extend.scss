@@ -22,10 +22,33 @@
 }
 
 //mixin de media querie para achicar el tamaño de los h1 a un diverso ancho de pantalla
-@mixin modificacionTitulos($width) {
-    @media (min-width: $width) {
-        .titulo {
-            font-size: 42px;
+@mixin modificacionTitulos($size) {
+    @if $size==phone-only {
+        @media (max-width: 599px) {
+            .titulo {
+                font-size: 40px;
+            }
+        }
+    }
+    @else if $size==tablet-portrait-up {
+        @media (min-width: 600px) {
+            .titulo {
+                font-size: 42px;
+            }
+        }
+    }
+    @else if $size==desktop-up {
+        @media (min-width: 1200px) {
+            .titulo {
+                font-size: 47px;
+            }
+        }
+    }
+    @else if $size==big-desktop-up {
+        @media (min-width: 1800px) {
+            .titulo {
+                font-size: 50px;
+            }
         }
     }
 }

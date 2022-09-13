@@ -52,9 +52,9 @@
     .header .navbar .logo {
       width: 150px; } }
 
-@media (min-width: 480px) {
+@media (max-width: 599px) {
   .titulo .titulo {
-    font-size: 42px; } }
+    font-size: 40px; } }
 
 .subTitulo {
   font-size: 30px;
@@ -65,6 +65,9 @@
 
 .index-main .titulos {
   background-image: linear-gradient(#637e0b 50%, #d6e382); }
+  @media (max-width: 599px) {
+    .index-main .titulos .titulo .titulo {
+      font-size: 40px; } }
 
 .index-main .section-ppal {
   background-image: linear-gradient(#d6e382 50%, #a1fba1);
@@ -174,9 +177,9 @@
 
 .listadoProductos {
   background-color: #eb4783c0; }
-  @media (min-width: 480px) {
+  @media (max-width: 599px) {
     .listadoProductos .titulo .titulo {
-      font-size: 42px; } }
+      font-size: 40px; } }
   .listadoProductos ul {
     list-style: none;
     margin: 10px; }
@@ -205,9 +208,9 @@
 
 .testimonioClientes {
   background-color: #f07167; }
-  @media (min-width: 480px) {
+  @media (max-width: 599px) {
     .testimonioClientes h1 .titulo {
-      font-size: 42px; } }
+      font-size: 40px; } }
   .testimonioClientes .testimonios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

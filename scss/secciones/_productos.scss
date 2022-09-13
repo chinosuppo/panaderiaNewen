@@ -2,7 +2,7 @@
     background-color: $fondoProductos;
     .titulo {
         @extend %estiloTitulos;
-        @include modificacionTitulos(480px);
+        @include modificacionTitulos(phone-only);
     }
     ul {
         list-style: none;
