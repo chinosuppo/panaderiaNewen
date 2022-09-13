@@ -183,16 +183,20 @@
   .listadoProductos ul {
     list-style: none;
     margin: 10px; }
-  .listadoProductos .card-header {
-    font-size: 16px;
-    font-weight: bold; }
-    .listadoProductos .card-header:hover {
-      font-size: 20px;
-      background-color: #ff8800cf;
-      cursor: pointer; }
-  .listadoProductos .list-group-item {
-    font-size: 0.85rem;
-    font-family: 'Ubuntu', Arial, Helvetica, sans-serif; }
+  .listadoProductos .card {
+    background-color: #ed6b5b; }
+    .listadoProductos .card .card-header {
+      font-size: 16px;
+      font-weight: bold;
+      color: white; }
+      .listadoProductos .card .card-header:hover {
+        font-size: 20px;
+        background-color: #3a3e59;
+        cursor: pointer; }
+    .listadoProductos .card .list-group-item {
+      background-color: #f9ac66;
+      font-size: 0.85rem;
+      font-family: 'Ubuntu', Arial, Helvetica, sans-serif; }
   .listadoProductos button {
     margin-bottom: 30px;
     padding: 20px;

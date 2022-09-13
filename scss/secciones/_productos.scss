@@ -9,19 +9,24 @@
         margin: 10px;
     }
     //estilos de cartas Bootstrap y aplicacion de hover
-    .card-header {
-        font-size: 16px;
-        font-weight: bold;
-        &:hover {
-            font-size: 20px;
-            background-color: #ff8800cf;
-            cursor: pointer;
+    .card {
+        background-color: #ed6b5b;
+        .card-header {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            &:hover {
+                font-size: 20px;
+                background-color: #3a3e59;
+                cursor: pointer;
+            }
         }
-    }
-    //estilos de productos
-    .list-group-item {
-        font-size: 0.85rem;
-        font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        //estilos de productos
+        .list-group-item {
+            background-color: #f9ac66;
+            font-size: 0.85rem;
+            font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+        }
     }
     //estilos boton de productos
     button {
