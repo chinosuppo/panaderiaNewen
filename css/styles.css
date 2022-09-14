@@ -210,7 +210,8 @@
       cursor: pointer; }
 
 .testimonioClientes {
-  background-color: #f07167; }
+  background-color: #f07167;
+  overflow-x: hidden; }
   @media (max-width: 599px) {
     .testimonioClientes h1 {
       font-size: 42px; } }

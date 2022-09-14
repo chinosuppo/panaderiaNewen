@@ -1,5 +1,6 @@
 .testimonioClientes {
     background-color: $fondoTestimonios;
+    overflow-x: hidden;
     h1 {
         @extend %estiloTitulos;
         @include modificacionTitulos(phone-only);
