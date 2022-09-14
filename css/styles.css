@@ -86,9 +86,10 @@
     width: 100%; }
   .index-main .section-ppal article {
     font-size: 20px;
-    font-family: 'Montserrat', Courier, monospace;
+    font-family: "Montserrat";
     color: #201f21;
-    margin: 20px 20px;
+    margin: 10px 10px;
+    padding: 5px;
     width: 60%;
     display: grid;
     align-content: space-evenly; }
@@ -248,9 +249,10 @@
         margin: 5px 5px; }
       .testimonioClientes .testimonios section p {
         font-size: 18px;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 5px;
-        margin: 10px 10px; }
+        font-family: "Ubuntu";
+        color: #201f21;
+        margin: 10px 10px;
+        padding: 5px; }
     @media (max-width: 768px) {
       .testimonioClientes .testimonios {
         display: grid;

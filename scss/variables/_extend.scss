@@ -27,7 +27,7 @@
     font-size: $tamanioSize;
     font-family: 'Cormorant SC', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-weight: 600;
+    font-weight: $fontWeight;
     margin: auto;
 }
 
@@ -54,4 +54,12 @@
 @mixin posicionFlex-column {
     display: flex;
     flex-direction: column;
+}
+
+@mixin estilosParrafo($fontFamily, $fontSize) {
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    color: #201f21;
+    margin: 10px 10px;
+    padding: 5px;
 }

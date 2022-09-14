@@ -26,10 +26,7 @@
                 margin: 5px 5px;
             }
             p {
-                font-size: 18px;
-                font-family: 'Ubuntu', sans-serif;
-                padding: 5px;
-                margin: 10px 10px;
+                @include estilosParrafo('Ubuntu', 18px);
             }
         }
         //media querie para acomodar de otra forma la seccion testimonios

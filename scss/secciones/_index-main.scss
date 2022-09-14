@@ -21,10 +21,7 @@
         }
         //estilos articulo
         article {
-            font-size: 20px;
-            font-family: 'Montserrat', Courier, monospace;
-            color: #201f21;
-            margin: 20px 20px;
+            @include estilosParrafo ('Montserrat', 20px);
             width: 60%;
             display: grid;
             // place-items: center;
