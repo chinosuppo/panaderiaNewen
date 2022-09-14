@@ -19,6 +19,13 @@
             //aplicando opacidad a las fotos al pasar el mouse
             &:hover {
                 opacity: 0.8;
+                margin-top: 5px;
+                /*Reflection*/
+                -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0, 0, 0, 0.4)));
+                /*Glow*/
+                -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+                -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+                box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
                 cursor: pointer;
             }
         }
