@@ -16,6 +16,15 @@
   margin: auto;
   padding: 10px;
   color: #F0C808; }
+  .titulo:hover, .index-main .titulos .titulo:hover, .testimonioClientes h1:hover {
+    transition: color 1s, font-size 1s, text-shadow 1s;
+    -moz-transition: color 1s, font-size 1s, text-shadow 1s;
+    -webkit-transition: color 1s, font-size 1s, text-shadow 1s;
+    -o-transition: color 1s, font-size 1s, text-shadow 1s;
+    color: #C9EEFF;
+    z-index: 10;
+    font-size: 55px;
+    text-shadow: 0 0 20px #EAF8FF; }
 
 .header {
   background-image: linear-gradient(180deg, #E7EBDA, #f09527); }
