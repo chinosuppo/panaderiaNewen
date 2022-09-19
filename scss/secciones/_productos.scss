@@ -1,5 +1,5 @@
 .listadoProductos {
-    background-color: $fondoProductos;
+    background: $fondoProductos;
     .titulo {
         @extend %estiloTitulos;
         @include modificacionTitulos(phone-only);

@@ -15,7 +15,7 @@
   text-align: center;
   margin: auto;
   padding: 10px;
-  color: #F0C808; }
+  color: #065374; }
   .titulo:hover, .index-main .titulos .titulo:hover, .testimonioClientes h1:hover {
     transition: color 1s, font-size 1s, text-shadow 1s;
     -moz-transition: color 1s, font-size 1s, text-shadow 1s;
@@ -69,13 +69,13 @@
   margin: auto; }
 
 .index-main .titulos {
-  background-image: linear-gradient(#637e0b 50%, #d6e382); }
+  background-image: linear-gradient(90deg, #ffa585, #ffeda0); }
   @media (max-width: 599px) {
     .index-main .titulos .titulo {
       font-size: 42px; } }
 
 .index-main .section-ppal {
-  background-image: linear-gradient(#d6e382 50%, #a1fba1);
+  background-image: linear-gradient(90deg, #ffa585, #ffeda0);
   text-align: center;
   padding: 20px 20px;
   display: block; }
@@ -113,9 +113,11 @@
   align-items: center;
   background-image: url("https://instamat.com/wp-content/uploads/2020/12/Vitrinas-y-mostradores-para-panaderia-casadieela-y-cafe.jpg");
   /*Estilos del formulario*/ }
-  @media (max-width: 599px) {
-    .formulario .titulo {
-      font-size: 42px; } }
+  .formulario .titulo {
+    color: #fceb35; }
+    @media (max-width: 599px) {
+      .formulario .titulo {
+        font-size: 42px; } }
   .formulario form {
     padding: 30px;
     background-color: #d0f7b3;
@@ -192,7 +194,7 @@
       gap: 20px; } }
 
 .listadoProductos {
-  background-color: #eb4783c0; }
+  background: linear-gradient(90deg, #ffa585, #ffeda0); }
   @media (max-width: 599px) {
     .listadoProductos .titulo {
       font-size: 42px; } }
@@ -227,11 +229,13 @@
       cursor: pointer; }
 
 .testimonioClientes {
-  background-color: #f07167;
+  background: linear-gradient(90deg, #F9DE70, #FFFBAB);
   overflow-x: hidden; }
   @media (max-width: 599px) {
     .testimonioClientes h1 {
       font-size: 42px; } }
+  .testimonioClientes h1:hover {
+    color: #5eb4db; }
   .testimonioClientes .testimonios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

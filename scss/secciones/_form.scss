@@ -1,6 +1,7 @@
 .formulario {
     .titulo {
         @include modificacionTitulos(phone-only);
+        color: #fceb35;
     }
     @include posicionFlex-column;
     align-items: center;
